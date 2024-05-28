@@ -5,7 +5,7 @@ typedef struct {
     int codigoNumerico;
     float valor;
 } pacotedCafe;
-int emptyList(Sllist* l){ 
+int emptyList(Sllist *l){ 
     if(l != NULL){
         pacotedCafe *aux;
         while(aux != NULL){

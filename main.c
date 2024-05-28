@@ -1,5 +1,4 @@
 #include "sll.c"
-#include <math.h>
 typedef struct {
     char marca[30];
     int codigoNumerico;
